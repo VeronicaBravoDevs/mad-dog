@@ -1,0 +1,14 @@
+
+.logo{
+    font-family: $encabezadoPpal_Orbitron;
+    font-size: 1.45rem;
+    text-shadow: 1px 2px 0px $shadow;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: $shadow;
+}
+
+.nav-link{
+    color: $shadow
+}

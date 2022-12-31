@@ -1,0 +1,53 @@
+/* Signika semibold 600 */
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@600&display=swap');
+/* Cantora One 400 regular */
+@import url('https://fonts.googleapis.com/css2?family=Cantora+One&display=swap');
+/* Staatliches */
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+/* Dosis regular 400*/
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+/* Outfit light 300 */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+/* Arsenal Regular 400 */
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&display=swap');
+/* Anton regular 400*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+/* Orbitron extra bold 800*/
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap');
+/* Sigmar One regular 400*/
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+/* Bangers regular 400*/
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.bg-ppal{
+    background-color: $header-footer;
+}
+#hero{
+    background-color: $lightBlue-hero;
+    height: auto;
+}
+
+#servicios{
+    background-color: $green-services;
+    height: auto;
+}
+
+#proyectos{
+    background-color: $orange-proyect;
+    height: auto;
+}
+
+#contacto{
+    background-color: $pink-contacto;
+    height: auto;
+}
+

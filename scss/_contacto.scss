@@ -1,0 +1,50 @@
+.contacto__dog {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-control {
+    /* background: rgba(235, 156, 227, 0); */
+    background: #fff6ffe0;;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.1px);
+    -webkit-backdrop-filter: blur(12.1px);
+    border: none;
+    border-bottom: 1px solid black;
+    font-weight: 600;;
+
+    &:focus {
+        background-color: rgba(221, 127, 212, 0.637);
+        border: none;
+        box-shadow: 0 0 0 .1rem rgba(247, 14, 111, 0.25);
+
+    }
+
+}
+
+h2 {
+    font-family: $tituos_Staatliches;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.form-floating>label {
+    color: $font-dark;
+    font-family: $texto_Dosis;
+    font-weight: 600;
+}
+
+.btn-mad {
+    width: 40%;
+    background-color: black;
+    box-shadow: -2px 9px 14px 5px #8774748c;
+    display: block;
+    margin: 0 auto;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    color: white;
+    height: 3rem;
+}

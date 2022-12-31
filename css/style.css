@@ -1,0 +1,365 @@
+/* para header/footer */
+/* para red */
+/* Signika semibold 600 */
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@600&display=swap");
+/* Cantora One 400 regular */
+@import url("https://fonts.googleapis.com/css2?family=Cantora+One&display=swap");
+/* Staatliches */
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+/* Dosis regular 400*/
+@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+/* Outfit light 300 */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
+/* Arsenal Regular 400 */
+@import url("https://fonts.googleapis.com/css2?family=Arsenal&display=swap");
+/* Anton regular 400*/
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+/* Orbitron extra bold 800*/
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap");
+/* Sigmar One regular 400*/
+@import url("https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap");
+/* Bangers regular 400*/
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cantora+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arsenal&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bg-ppal {
+  background-color: #021b2b;
+}
+
+#hero {
+  background-color: #00aaff;
+  height: auto;
+}
+
+#servicios {
+  background-color: #b0da09;
+  height: auto;
+}
+
+#proyectos {
+  background-color: #e45646;
+  height: auto;
+}
+
+#contacto {
+  background-color: rgb(255, 0, 170);
+  height: auto;
+}
+
+/* Signika semibold 600 */
+/* Cantora One 400 regular */
+/* Staatliches */
+/* Dosis regular 400*/
+/* Outfit light 300 */
+/* Arsenal Regular 400 */
+/* Anton regular 400*/
+/* Orbitron extra bold 800*/
+/* Sigmar One regular 400*/
+/* Bangers regular 400*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bg-ppal {
+  background-color: #021b2b;
+}
+
+#hero {
+  background-color: #00aaff;
+  height: auto;
+}
+
+#servicios {
+  background-color: #b0da09;
+  height: auto;
+}
+
+#proyectos {
+  background-color: #e45646;
+  height: auto;
+}
+
+#contacto {
+  background-color: rgb(255, 0, 170);
+  height: auto;
+}
+
+.logo {
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.45rem;
+  text-shadow: 1px 2px 0px #FFb703;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
+  color: #FFb703;
+}
+
+.nav-link {
+  color: #FFb703;
+}
+
+.hero__dog img {
+  width: 95%;
+  object-fit: contain;
+}
+
+.hero__text, .hero__dog {
+  display: flex; /* HACER MIXIN O EXTEND */
+  flex-direction: column;
+  color: #0d0d0d;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__text {
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.hero__text h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 8rem;
+  text-shadow: 5px 3px 0px #FFb703;
+}
+
+.hero__text h2 {
+  font-family: "Staatliches", cursive;
+  width: 80%;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.servicios__text {
+  flex-direction: column;
+}
+.servicios__text div {
+  padding: 1rem;
+}
+.servicios__text div h2 {
+  margin: 1rem;
+  font-family: "Staatliches", cursive;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.servicios__text div p {
+  text-align: justify;
+  padding: 0.5rem;
+  font-family: "Arsenal", sans-serif;
+  font-size: 1.2rem;
+}
+
+.proyectos__dog {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.proyectos__proyectos {
+  display: grid;
+  grid-template-columns: 0.9fr 0.6fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "proyecto1 proyecto1" "proyecto2 proyecto3" "proyecto4 proyecto5";
+  height: 100vh;
+}
+.proyectos__proyectos .proyecto1 {
+  grid-area: proyecto1;
+  background-image: url(../img/web-eg1.png);
+  background-size: cover;
+  border: 3px solid black;
+}
+.proyectos__proyectos .proyecto2 {
+  grid-area: proyecto2;
+  background-image: url(../img/web-eg2.png);
+  background-size: cover;
+  border: 3px solid black;
+}
+.proyectos__proyectos .proyecto3 {
+  grid-area: proyecto3;
+  background-image: url(../img/web-eg3.png);
+  background-size: cover;
+  border: 3px solid black;
+}
+.proyectos__proyectos .proyecto4 {
+  grid-area: proyecto4;
+  background-image: url(../img/web-eg4png.png);
+  background-size: cover;
+  border: 3px solid black;
+}
+.proyectos__proyectos .proyecto5 {
+  grid-area: proyecto5;
+  background-image: url(../img/web-eg5.png);
+  background-size: cover;
+  border: 3px solid black;
+}
+
+#proyectos h2 {
+  font-family: "Cantora One", sans-serif;
+  font-size: 2.25rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 1.75rem;
+}
+
+.contacto__dog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-control {
+  /* background: rgba(235, 156, 227, 0); */
+  background: rgba(255, 246, 255, 0.8784313725);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12.1px);
+  -webkit-backdrop-filter: blur(12.1px);
+  border: none;
+  border-bottom: 1px solid black;
+  font-weight: 600;
+}
+.form-control:focus {
+  background-color: rgba(221, 127, 212, 0.637);
+  border: none;
+  box-shadow: 0 0 0 0.1rem rgba(247, 14, 111, 0.25);
+}
+
+h2 {
+  font-family: "Staatliches", cursive;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.form-floating > label {
+  color: #0d0d0d;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+}
+
+.btn-mad {
+  width: 40%;
+  background-color: black;
+  box-shadow: -2px 9px 14px 5px rgba(135, 116, 116, 0.5490196078);
+  display: block;
+  margin: 0 auto;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  color: white;
+  height: 3rem;
+}
+
+footer > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  color: #fffff7;
+}
+footer .footer__mail {
+  color: #FFb703;
+  font-family: "Arsenal", sans-serif;
+}
+
+/* hero */
+@media screen and (min-width: 992px) {
+  .hero__text h1 {
+    font-size: 6.5rem;
+    padding: 0 0.3rem;
+  }
+  .servicios__dog {
+    position: relative;
+  }
+  img {
+    height: 40vh;
+    position: sticky;
+    top: 65px;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer div {
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 80%;
+  }
+  .proyectos__proyectos {
+    height: 150vh;
+  }
+}
+@media screen and (max-width: 991px) {
+  .hero__dog img {
+    width: 20rem;
+  }
+  .hero__text h1 {
+    font-size: 4.5rem;
+    padding: 0 0.3rem;
+  }
+  .hero__text h2 {
+    font-size: 3.5rem;
+    width: 85%;
+  }
+  .servicios__dog img {
+    height: 30vh;
+  }
+}
+@media screen and (max-width: 767px) {
+  #hero .hero__dog img {
+    width: 15rem;
+  }
+  #hero .hero__text {
+    text-align: center;
+  }
+  #hero .hero__text h1 {
+    font-size: 4.5rem;
+  }
+  #hero .hero__text h2 {
+    font-size: 2.5rem;
+    width: 100%;
+  }
+  #servicios .servicios__text {
+    order: 2;
+    flex-direction: column;
+  }
+  #servicios .servicios__dog {
+    order: 1;
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 576px) {
+  /*  #servicios{height: 160vh;} */
+  .hero__dog img {
+    width: 10rem;
+  }
+  .hero__text h1 {
+    font-size: 3.5rem;
+  }
+  .hero__text h2 {
+    font-size: 1.75rem;
+  }
+  .hero__text,
+  .hero__dog {
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
